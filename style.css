@@ -1,0 +1,35 @@
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    background-color:  rgb(179, 177, 177);
+    padding: 50px;
+    box-shadow: 0 1px 5px;
+    margin-top: 20%;
+}
+
+.clock{
+    color: darkblue;
+    font-size: 70px;
+}
+
+/* .buttons{
+    display: flex;
+   margin: 10px -10px 0;
+} */
+
+.buttons button{
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color: rgb(116, 121, 116);
+    background-color: rgb(8, 8, 8);
+}
